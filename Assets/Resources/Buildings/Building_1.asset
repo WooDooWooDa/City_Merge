@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cbd7ac32a60cc942b7c3b015b6731ab, type: 3}
+  m_Name: Building_1
+  m_EditorClassIdentifier: 
+  Name: House
+  sprite: {fileID: 21300000, guid: 50b5663767164cc48915ce0ff967e0ac, type: 3}
+  Level: 0
+  BuildingType: 0
+  Model: {fileID: 9188609764995602211, guid: 894e59268f7d05a4a8475355b1516f7b, type: 3}
+  StageToBuild: 2
+  Production:
+    Value: 1
+    Interval: 2
+    Currency: {fileID: 11400000, guid: b375183c7daed1f4b8851e0bb0285210, type: 2}
+  MergeExp:
+    Amount: 10
+    CurrencyType: 0
+  Price:
+    Amount: 100
+    CurrencyType: 1
+  BaseResellValue:
+    Amount: 10
+    CurrencyType: 1
+  maxResellValueModifier: 1

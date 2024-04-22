@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f36956f240eccb4385cd5789a28adcc, type: 3}
+  m_Name: AeroportTile
+  m_EditorClassIdentifier: 
+  TileName: Aeroport
+  Description: A small but effective aeroport for plane to arrive and depart
+  Special: 'Having an aeroport will '
+  sprite: {fileID: 0}
+  Type: 5
+  TilePrefab: []
+  isEditable: 0
+  minLevel: 5
+  BasePrice:
+    Amount: 100000
+    CurrencyType: 1
+  PricePerPrevious: 50000
+  ResellValue:
+    Amount: 20000
+    CurrencyType: 1

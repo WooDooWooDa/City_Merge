@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cbd7ac32a60cc942b7c3b015b6731ab, type: 3}
+  m_Name: Building_2
+  m_EditorClassIdentifier: 
+  Name: Condo
+  sprite: {fileID: 21300000, guid: 24768be712ef70d4b9a8c9c6333c4913, type: 3}
+  BuildingPrerequisite:
+    Type: 0
+    Level: 0
+  Level: 1
+  BuildingType: 0
+  Model: {fileID: 8236164103450769603, guid: b459c3848d7d30d449dbd5501bf17fbb, type: 3}
+  StageToBuild: 2
+  Production:
+    Value: 5
+    Interval: 2
+    Currency: {fileID: 11400000, guid: b375183c7daed1f4b8851e0bb0285210, type: 2}
+  MergeExp:
+    Amount: 0
+    CurrencyType: 0
+  Price:
+    Amount: 1000
+    CurrencyType: 1
+  BaseResellValue:
+    Amount: 0
+    CurrencyType: 0
+  maxResellValueModifier: 1

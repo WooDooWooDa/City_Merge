@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c83175429132d7646bd26ef763bba3e8, type: 3}
+  m_Name: FasterBuild
+  m_EditorClassIdentifier: 
+  Name: Faster Build
+  Description: Reduce the amount of "click" needed to build
+  Icon: {fileID: 21300000, guid: 90e593d37d507e04e946dc881a80e44c, type: 3}
+  Type: 1
+  MaxLevel: 5
+  MinPlayerLevel: 1
+  Price:
+  - Amount: 500
+    CurrencyType: 1
+  - Amount: 2000
+    CurrencyType: 1
+  - Amount: 5000
+    CurrencyType: 1
+  - Amount: 15000
+    CurrencyType: 1
+  - Amount: 50000
+    CurrencyType: 1
+  UpgradePrefab: {fileID: 490872632697002779, guid: 9c491b5cbb5db664484fd26aad820e63,
+    type: 3}
+  CanBeToggled: 0
+  upgradesPrerequisite: []

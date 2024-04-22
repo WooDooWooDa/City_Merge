@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91a3a832810c4de40912b4d7004eb611, type: 3}
+  m_Name: UnlockScreen
+  m_EditorClassIdentifier: 
+  ScreenType: 8
+  ScreenLayer: 2
+  m_screen: {fileID: 3487424693646011133, guid: 3941bf9516dba4d4780bfdc65ae8998e,
+    type: 3}
+  m_staticScreen: 0
+  m_screenAnimation: {fileID: 11400000, guid: 9e91f746859f1074ebf5b580c286953c, type: 2}

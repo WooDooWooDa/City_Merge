@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91a3a832810c4de40912b4d7004eb611, type: 3}
+  m_Name: BuildingStoreScreen
+  m_EditorClassIdentifier: 
+  ScreenType: 5
+  ScreenLayer: 0
+  m_screen: {fileID: -1862204647336357989, guid: c3cf28536e3fcbb4ab95058b00f83903,
+    type: 3}
+  m_staticScreen: 0
+  m_screenAnimation: {fileID: 11400000, guid: b68c3373cbcbf2440b7a0f2c4aaffde7, type: 2}

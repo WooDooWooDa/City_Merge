@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b63feca82ef7dfc48854de4e5348d043, type: 3}
+  m_Name: TilesConfig
+  m_EditorClassIdentifier: 
+  m_emptyGrassTile: {fileID: 2256472345050389409, guid: 23a37cf6b6f52d34085122ba5743a6b4,
+    type: 3}
+  m_tilesInformations:
+  - {fileID: 11400000, guid: 1ce68c76ee5998a4b95554acafa0a1d3, type: 2}
+  - {fileID: 11400000, guid: 7a3974306d3cd7b438dbaf7bdbf6a555, type: 2}
+  - {fileID: 11400000, guid: 29fe6cce72f079648b6bb6cb41730f8b, type: 2}
+  - {fileID: 11400000, guid: ff33de4c23506594cb52515b89440100, type: 2}
+  - {fileID: 11400000, guid: 5c23e0e2d39d8ed4b8c78b4c0645d1bd, type: 2}
+  - {fileID: 11400000, guid: 78e93888de3583b4ea90fb8389fc730c, type: 2}
+  m_grassPalette: {fileID: 11400000, guid: bc5683c17e912844f80be0e829909d12, type: 2}

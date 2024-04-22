@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f36956f240eccb4385cd5789a28adcc, type: 3}
+  m_Name: GridTile
+  m_EditorClassIdentifier: 
+  TileName: Concrete
+  Description: A slab of ciment to accommodate a building of a future prosperous
+    city
+  Special: Only on those tile can the buildings be placed and moved to
+  sprite: {fileID: 21300000, guid: c4cc95309b988284399e022a13e2b0e8, type: 3}
+  Type: 1
+  TilePrefab:
+  - {fileID: 7792330002254976960, guid: 65ff47c50621c5d47b3245e8e4a9c8e2, type: 3}
+  isEditable: 0
+  minLevel: 1
+  BasePrice:
+    Amount: 0
+    CurrencyType: 1
+  PricePerPrevious: 10
+  ResellValue:
+    Amount: 10
+    CurrencyType: 1

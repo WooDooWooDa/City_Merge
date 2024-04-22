@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34e4cec87f93ae045aa8335dfa12bb8a, type: 3}
+  m_Name: GrassMaterialPalette
+  m_EditorClassIdentifier: 
+  m_materialsPalette:
+  - {fileID: 2100000, guid: 32b4d34c42b993a46a59d9490fa6622d, type: 2}
+  - {fileID: 2100000, guid: 616a5575ed160d94393a9d929d4ddfc6, type: 2}
+  - {fileID: 2100000, guid: c0e9d45372424eb429c78d2772e2b4ba, type: 2}
+  - {fileID: 2100000, guid: 1ff5647425edb9b40994e39f872c77fc, type: 2}
+  - {fileID: 2100000, guid: b6f31decd58944f4597629b742e9e0da, type: 2}
+  width: 100
+  height: 100
+  scale: 25
+  maxGridValue: 4

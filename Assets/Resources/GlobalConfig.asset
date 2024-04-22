@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7fabe23a0595a54fbd3899d255947e7, type: 3}
+  m_Name: GlobalConfig
+  m_EditorClassIdentifier: 
+  SaveName: city_merge_data
+  ProfileConfig: {fileID: 11400000, guid: 9b10270e938dec54b8c02444e4f580dd, type: 2}
+  IslandConfig: {fileID: 11400000, guid: 92e7fcc02d99463409c4824ac2565554, type: 2}
+  BuildingsConfig: {fileID: 11400000, guid: 4ca191286f6db4f47b39fa067a06a9c5, type: 2}
+  TileConfig: {fileID: 11400000, guid: 97c80545701754d4f89fed56f77660ff, type: 2}
+  UpgradeConfig: {fileID: 11400000, guid: 7dd95fc5be83ceb4f8d3d6a9dbb5671e, type: 2}
+  ScreenConfig: {fileID: 11400000, guid: 078d99bfb44c6a34986b2fd643c076c9, type: 2}
+  TileLayers:
+    serializedVersion: 2
+    m_Bits: 2944

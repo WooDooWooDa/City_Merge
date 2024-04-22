@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ec8d93e19f546b4abd556810bbdc54a, type: 3}
+  m_Name: IslandConfig
+  m_EditorClassIdentifier: 
+  m_islandBase: {fileID: 4642607503890739010, guid: 526405d010ee3b04e86d4a9c03b29af4,
+    type: 3}
+  m_maxIslandLevel: 10
+  m_startingSize: {x: 3, y: 3}

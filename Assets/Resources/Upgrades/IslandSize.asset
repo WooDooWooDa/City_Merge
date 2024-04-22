@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c83175429132d7646bd26ef763bba3e8, type: 3}
+  m_Name: IslandSize
+  m_EditorClassIdentifier: 
+  Name: Expand your island
+  Description: Add a ring of tile around your current island
+  Icon: {fileID: 21300000, guid: 74ade6fad6f9bdb4991f3327e7ed8b9f, type: 3}
+  Type: 0
+  MaxLevel: 10
+  MinPlayerLevel: 1
+  Price:
+  - Amount: 2500
+    CurrencyType: 1
+  - Amount: 5000
+    CurrencyType: 1
+  - Amount: 0
+    CurrencyType: 1
+  - Amount: 0
+    CurrencyType: 1
+  - Amount: 0
+    CurrencyType: 1
+  - Amount: 0
+    CurrencyType: 1
+  - Amount: 0
+    CurrencyType: 1
+  - Amount: 0
+    CurrencyType: 1
+  - Amount: 0
+    CurrencyType: 1
+  - Amount: 0
+    CurrencyType: 1
+  UpgradePrefab: {fileID: 2833376757805802741, guid: 9b8fd38d5c7a4f44f9ee29148887828f,
+    type: 3}
+  HasUpdateActions: 0
+  CanBeToggled: 0
+  upgradesPrerequisite: []

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 210c5bd677ac7124ea2d23a9743248c6, type: 3}
+  m_Name: PrestigeInfo
+  m_EditorClassIdentifier: 
+  Title: Prestige!
+  Icon: {fileID: 21300000, guid: 37f6d21e61a272d4aa28e682ffe974a3, type: 3}
+  Content: "Your building has prestiged. \nStarting over as a House of prestige 1,
+    merge 2 prestiged House together to keep going. \nPrestige levels are infinite,
+    so merge as many time as you'd like!"
+  buttons:
+  - {fileID: 11400000, guid: f5b0c60753e04d64e84e02ae1bc54239, type: 2}

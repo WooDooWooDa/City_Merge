@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f36956f240eccb4385cd5789a28adcc, type: 3}
+  m_Name: RoadTile
+  m_EditorClassIdentifier: 
+  TileName: Road
+  Description: An asphalt pavement to facilitate the movement of cars
+  Special: With a long enough road, some cars will come and navigate trough your
+    city
+  sprite: {fileID: 21300000, guid: 99e9cd0d9cdb01b4887a81a2e3fdf2e0, type: 3}
+  Type: 2
+  TilePrefab:
+  - {fileID: 6866560754932130994, guid: 792a8faf04ab31247a9ea3f35de04447, type: 3}
+  - {fileID: 579189434337328503, guid: f81b7fbfd3a7bca41a7786bf12341e93, type: 3}
+  - {fileID: 3198149751262942635, guid: aedde46ea74ad9740988078dfa89c488, type: 3}
+  - {fileID: 8386855355089341568, guid: ce4031ef4ed1962418f08a6ef42b83ee, type: 3}
+  - {fileID: 6357582076467705285, guid: 2c778753543e11f48b2a879171f55ee4, type: 3}
+  isEditable: 1
+  minLevel: 1
+  BasePrice:
+    Amount: 5000
+    CurrencyType: 1
+  PricePerPrevious: 1000
+  ResellValue:
+    Amount: 1000
+    CurrencyType: 1

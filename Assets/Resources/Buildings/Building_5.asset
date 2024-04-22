@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cbd7ac32a60cc942b7c3b015b6731ab, type: 3}
+  m_Name: Building_5
+  m_EditorClassIdentifier: 
+  Name: Co-op
+  sprite: {fileID: 0}
+  BuildingPrerequisite:
+    Type: 0
+    Level: 0
+  Level: 4
+  BuildingType: 0
+  Model: {fileID: 311985490524830370, guid: 916178f9644406d4aa1cd22d23e50c8e, type: 3}
+  StageToBuild: 4
+  Production:
+    Value: 100
+    Interval: 2
+    Currency: {fileID: 11400000, guid: b375183c7daed1f4b8851e0bb0285210, type: 2}
+  MergeExp:
+    Amount: 0
+    CurrencyType: 0
+  Price:
+    Amount: 1000
+    CurrencyType: 1
+  BaseResellValue:
+    Amount: 0
+    CurrencyType: 0
+  maxResellValueModifier: 1
